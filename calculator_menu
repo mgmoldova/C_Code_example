@@ -52,33 +52,32 @@ int main()
 	}
 
 
-printf("Result->>>%.2lf*%.2lf=%.2lf",first_num,second_num,result);
 return 0;
 }
 double multiply_two_float(double first,double second)
 {
-return first*second;
+ return first*second;
 }
 
 double sum_two_num(double first,double second)
 {
-return first+second;
+ return first+second;
 }
 double sub_num(double first,double second)
 {
-return first-second;
+ return first-second;
 }
 double division(double first,double second)
 {
-return first/second;
+ return first/second;
 }
 //IN_out_block//
 void in_save()
 {
-printf("Introduce first float number:\n");
-scanf("%lf",&first_num);
-printf("Introduce second float number:\n");
-scanf("%lf",&second_num);
+ printf("Introduce first float number:\n");
+ scanf("%lf",&first_num);
+ printf("Introduce second float number:\n");
+ scanf("%lf",&second_num);
 
 }
 void out_print(double result,int flag)
