@@ -1,5 +1,6 @@
 /*
 Created by John Lex sd      
+Modified by mgmoldova
 */
 #include <stdio.h>
 double multiply_two_float(double first,double second);
